@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+/* 
+---------------------------------------------------------------------------------------------------------------------
+                                       1 Section
+---------------------------------------------------------------------------------------------------------------------
+*/
+.herotext h1{
+    font-size: 30px;
+    font-family: monospace;
+}
+.herotext p{
+    font-size: 15px;
+    color: #7D7987;
+    margin-top: 28px;
+}
+/* .herotext{
+    float: left;
+} */
+.herotext{
+    width: 330px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.herotext button{
+    background-color: #bebebe;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+}
+.herotext button:hover{
+    background-color: #458FF6;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.section1{
+    margin-bottom: 100px;
+}
+/* 
+---------------------------------------------------------------------------------------------------------------------
+                                       2 Section
+---------------------------------------------------------------------------------------------------------------------
+*/
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.card1{
+    width: 280px;
+    height: 280px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    padding: 30px;
+}
+.card1:hover{
+    background-color: #5A98F2;
+    color: #fff;
+    
+}
+.card1 img{
+    margin: 6px 144px 40px 5px;
+}
+/* .card1 h3{
+   
+} */
+.card1 p{
+    font-size: 12px;
+}
+.section2textmain{
+    text-align: center;
+}
+.section2text{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+.section2text p{
+    margin-top: 45px;
+    color: #7D7987;
+    font-size: 18px;
+}
+.section2text h1{
+    font-weight: 900;
+
+}
+.section2 button{
+    background-color: #bebebe;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+    margin-left: 585px;
+}
+.section2 button:hover{
+    background-color: #458FF6;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
